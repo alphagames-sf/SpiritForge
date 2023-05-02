@@ -1,0 +1,39 @@
+:root {
+    --header: #4F7CAC;
+    --background-color: #C0E0DE;
+    --footer: #162521;
+}
+
+.carousel .carousel-item {
+    height: 35em;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+header {
+    background-color: var(--header);
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(51, 51, 51);
+    background: linear-gradient(90deg, rgba(51, 51, 51, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+footer {
+    background: rgb(51, 51, 51);
+    background: linear-gradient(90deg, rgba(51, 51, 51, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+#carousel {
+    margin: 0;
+}
+
+body {
+    background: rgb(237, 237, 237);
+    background: linear-gradient(43deg, rgba(237, 237, 237, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
