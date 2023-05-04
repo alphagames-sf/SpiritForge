@@ -663,6 +663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Changer
       objectReference: {fileID: 0}
+    - target: {fileID: 181372293701525869, guid: c3f226a8b1b018e4db035a518f779596, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 181372293701525871, guid: c3f226a8b1b018e4db035a518f779596, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -20361,7 +20365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1266192344
 MonoBehaviour:
   m_ObjectHideFlags: 0
