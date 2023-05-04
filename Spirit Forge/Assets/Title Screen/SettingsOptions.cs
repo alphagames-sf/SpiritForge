@@ -9,6 +9,9 @@ public class SettingsOptions : MonoBehaviour{
 
     public void SetVolume (float volume) {
         audioMixer.SetFloat("volume", volume);
+        if(volume == -40) {
+            audioMixer.SetFloat("volume", -80);
+        }
     }
 
     public void SetFullscreen (bool isFullscreen) {

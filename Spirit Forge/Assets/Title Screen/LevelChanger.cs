@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour {
+
+public class LevelChanger : MonoBehaviour {
     public Animator animator;
     private string levelToLoad;
 
@@ -14,14 +15,5 @@ public class MainMenu : MonoBehaviour {
 
     public void OnFadeComplete () {
         SceneManager.LoadScene(levelToLoad);
-    }
-
-    public void PlayGame() {
-        FadeToLevel("Level 1");
-        //SceneManager.LoadScene("Level 1");
-    }
-
-    public void QuitGame() {
-        Application.Quit();
     }
 }
