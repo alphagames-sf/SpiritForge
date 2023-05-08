@@ -8,7 +8,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About The Game</title>
-
+    <style>
+        body {
+            background-color: #FFFFFF;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='508' height='508' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23E2E2E2' stroke-width='1.6'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23D2D2D2'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+            backdrop-filter: blur(3px);
+        }
+    </style>
 </head>
 
 <body>
@@ -17,7 +23,7 @@
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom bg-dark">
 
         <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-            <img src="img/logo-1.png" alt="Temp Logo" class="me-2" width="40" height="32">
+            <img src="img/logo-5.png" alt="Temp Logo" class="me-2" width="60" height="60">
         </a>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex align-items-center justify-content-center">
@@ -25,8 +31,8 @@
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="nav nav-tabs">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="nav nav-tabs align-items-center justify-content-center">
                     <a class="nav-item nav-link link-light" href="index.html">Home</a>
                     <a class="nav-item nav-link link-light" href="development.html">Development</a>
                     <a class="nav-item nav-link link-light" href="information.html">Information</a>
@@ -38,6 +44,8 @@
         </nav>
 
 
+
+
         <div class="col-md-3 text-end">
             <button type="button" class="btn btn-outline-primary me-2">Login</button>
             <button type="button" class="btn btn-primary">Sign-up</button>
@@ -47,10 +55,9 @@
             });
 
             document.querySelector('.btn-primary').addEventListener('click', function () {
-                window.location.href = 'signup.html';
+                window.location.href = 'login.html';
             });</script>
     </header>
-
 
     <main>
 
@@ -91,84 +98,55 @@
                 placerat, felis enim ornare nisi, vitae mattis nulla ante id dui.</p>
         </div>
     </main>
-    <!-- Footer -->
+
     <footer class="text-center text-white  bg-dark">
-        <!-- Grid container -->
         <div class="container">
-            <!-- Section: Links -->
             <section class="mt-5">
-                <!-- Grid row-->
                 <div class="row text-center d-flex justify-content-center pt-5">
-                    <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
                             <a href="about-us.html" class="text-white">About us</a>
                         </h6>
                     </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
                             <a href="privacy-policy.html" class="text-white">Privacy Policy</a>
                         </h6>
                     </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
                             <a href="#top" class="text-white">Return to Top</a>
                         </h6>
                     </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
                             <a href="terms-and-conditions.html" class="text-white">Terms and Conditions</a>
                         </h6>
                     </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
                             <a href="contact.html" class="text-white">Contact</a>
                         </h6>
                     </div>
-                    <!-- Grid column -->
                 </div>
-                <!-- Grid row-->
             </section>
-            <!-- Section: Links -->
-
             <hr class="my-5">
-
-            <!-- Section: Text -->
             <section class="mb-5">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                            distinctio earum repellat quaerat voluptatibus placeat nam,
-                            commodi optio pariatur est quia magnam eum harum corrupti
-                            dicta, aliquam sequi voluptate quas.
+                            Alpha Games is a fictional company created for demonstration purposes only. Any resemblance
+                            to real companies or products is purely coincidental.
                         </p>
                     </div>
                 </div>
             </section>
-            <!-- Section: Text -->
         </div>
-        <!-- Grid container -->
-        <!-- Copyright -->
         <div class="text-center p-3">
             © 2023 Copyright:
             <a class="text-white" href="">Alpha Games</a>
         </div>
-        <!-- Copyright -->
     </footer>
-    <!-- End of .container -->
 </body>
 
 </html>
